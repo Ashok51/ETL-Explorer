@@ -15,4 +15,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app ./app
 
 # Default command (Compose can override)
-CMD ["python", "-m", "app.main"]
+CMD ["python", "-m", "src.main"]
